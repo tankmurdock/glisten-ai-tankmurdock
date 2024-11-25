@@ -22,8 +22,8 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <PrismicPreview repositoryName={repositoryName} />
       </body>
-      <PrismicPreview repositoryName={repositoryName} />
     </html>
   );
 }
